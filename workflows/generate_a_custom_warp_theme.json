@@ -1,10 +1,14 @@
-{"type":"agent_mode","name":"Generate a custom Warp theme","query":"Detect the correct Warp themes directory based on the current operating system:
-- On macOS, use ~/.warp/themes/
-- On Linux, use ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-- On Windows, use $env:APPDATA\warp\Warp\data\themes\
-
-Create the directory if it doesn’t already exist. 
-
-Then, generate a custom Warp theme named {{theme_name}} in valid YAML format, following the official structure from Warp’s documentation. Exclude the background_image field, and do not include any extra or missing fields. Save the theme as {{theme_name}}.yaml in the detected themes directory.
-
-Once the theme is created and verified, confirm completion by telling me where the theme file was saved.","description":"Generate and save a custom Warp terminal theme in the correct system-specific directory, following Warp’s official YAML format.","arguments":[{"name":"theme_name","arg_type":"Text","description":"Customize your theme however you want.","default_value":"Matrix"}]}
+{
+  "type": "agent_mode",
+  "name": "Generate a custom Warp theme",
+  "query": "Detect the correct Warp themes directory based on the current operating system:\n- On macOS, use ~/.warp/themes/\n- On Linux, use ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/\n- On Windows, use $env:APPDATA\\warp\\Warp\\data\\themes\\\n\nCreate the directory if it doesn’t already exist. \n\nThen, generate a custom Warp theme named {{theme_name}} in valid YAML format, following the official structure from Warp’s documentation. Exclude the background_image field, and do not include any extra or missing fields. Save the theme as {{theme_name}}.yaml in the detected themes directory.\n\nOnce the theme is created and verified, confirm completion by telling me where the theme file was saved.",
+  "description": "Generate and save a custom Warp terminal theme in the correct system-specific directory, following Warp’s official YAML format.",
+  "arguments": [
+    {
+      "name": "theme_name",
+      "arg_type": "Text",
+      "description": "Customize your theme however you want.",
+      "default_value": "Matrix"
+    }
+  ]
+}

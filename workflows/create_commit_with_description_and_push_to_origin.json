@@ -1,6 +1,13 @@
-{"type":"agent_mode","name":"Create commit with description and push to origin","query":"1.	Review all modified files and their changes.
-2.	Generate a clear, descriptive commit message summarizing the changes.
-3.	Stage all modified files using git add.
-4.	Commit the changes using: git commit -m \"{{commit_message}}\".
-5.	Confirm the commit was successful and display the resulting commit hash and message.
-6.	Push the commit to the origin remote on the current branch.","arguments":[{"name":"commit_message","arg_type":"Text","description":null,"default_value":null}]}
+{
+  "type": "agent_mode",
+  "name": "Create commit with description and push to origin",
+  "query": "1.\tReview all modified files and their changes.\n2.\tGenerate a clear, descriptive commit message summarizing the changes.\n3.\tStage all modified files using git add.\n4.\tCommit the changes using: git commit -m \"{{commit_message}}\".\n5.\tConfirm the commit was successful and display the resulting commit hash and message.\n6.\tPush the commit to the origin remote on the current branch.",
+  "arguments": [
+    {
+      "name": "commit_message",
+      "arg_type": "Text",
+      "description": null,
+      "default_value": null
+    }
+  ]
+}
