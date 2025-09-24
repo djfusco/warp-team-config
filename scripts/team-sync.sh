@@ -85,7 +85,7 @@ sync_team_workflows() {
     
     # Show what's new
     echo -e "${CYAN}📋 Recent team activity:${NC}"
-    git log --oneline -5 --color=always
+    git --no-pager log --oneline -5 --color=always
     echo ""
     
     # Switch to team profile and import
@@ -172,7 +172,7 @@ show_status() {
     fi
     
     # Check if behind remote
-    git fetch --quiet
+    git --no-pager fetch --quiet
     local_commit=$(git rev-parse HEAD)
     remote_commit=$(git rev-parse @{u} 2>/dev/null || echo "no-remote")
     
@@ -185,14 +185,14 @@ show_status() {
     echo ""
     echo -e "${CYAN}Team Workflows:${NC} $(ls workflows/ 2>/dev/null | wc -l || echo 0)"
     echo -e "${CYAN}Last Activity:${NC}"
-    git log -1 --pretty=format:"%an - %ar - %s" 2>/dev/null || echo "No commits yet"
+    git --no-pager log -1 --pretty=format:"%an - %ar - %s" 2>/dev/null || echo "No commits yet"
 }
 
 show_log() {
     echo -e "${BLUE}📋 Recent Team Activity${NC}"
     echo ""
     cd "$REPO_DIR"
-    git log --oneline --color=always -10
+    git --no-pager log --oneline --color=always -10
 }
 
 list_workflows() {
