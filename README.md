@@ -15,7 +15,7 @@ This repository provides a system for sharing Warp terminal configurations, work
 
 ```bash
 # Clone the team repository
-git clone https://github.com/YOUR-USERNAME/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 cd ~/warp-team-config
 
 # Create default profiles (private and team)
@@ -237,7 +237,7 @@ warp-switch <name>                  # Switch with confirmation
 
 2. **Each team member** clones and sets up:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
    cd ~/warp-team-config
    ./scripts/warp-profile-manager.sh create-defaults
    echo 'source ~/warp-team-config/scripts/warp-aliases.sh' >> ~/.zshrc

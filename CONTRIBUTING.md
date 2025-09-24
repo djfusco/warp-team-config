@@ -272,7 +272,7 @@ Please include:
 ### Stuck?
 1. Check the [SETUP.md](SETUP.md) for common issues
 2. Review [docs/EXAMPLES.md](docs/EXAMPLES.md) for usage patterns
-3. Search existing [GitHub issues](https://github.com/YOUR-USERNAME/warp-team-config/issues)
+- Search existing [GitHub issues](https://github.com/djfusco/warp-team-config/issues)
 4. Create a new issue if needed
 
 ### Questions?

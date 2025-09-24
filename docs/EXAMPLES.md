@@ -50,7 +50,7 @@ warp-profile load client-beta-backend
 
 ```bash
 # New team member runs:
-git clone https://github.com/your-team/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 cd ~/warp-team-config
 ./scripts/warp-profile-manager.sh create-defaults
 echo 'source ~/warp-team-config/scripts/warp-aliases.sh' >> ~/.zshrc
@@ -313,7 +313,7 @@ cp ~/Library/Application\ Support/dev.warp.Warp-Stable/warp.sqlite.backup.LATEST
 # If repository gets corrupted
 cd ~
 mv warp-team-config warp-team-config.broken
-git clone https://github.com/your-team/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 
 # Re-run setup
 cd ~/warp-team-config  

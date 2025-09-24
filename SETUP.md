@@ -17,7 +17,7 @@ Welcome to the team! This guide will help you set up the shared Warp configurati
 ### 1. Clone the Repository
 ```bash
 # Clone to your home directory
-git clone https://github.com/YOUR-USERNAME/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 cd ~/warp-team-config
 ```
 
@@ -167,7 +167,7 @@ ls -la ~/warp-team-config/scripts/warp-profile-manager.sh
 
 # Re-clone if missing
 rm -rf ~/warp-team-config
-git clone https://github.com/YOUR-USERNAME/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 ```
 
 ### "Database not found" 
@@ -229,7 +229,7 @@ rm -rf ~/warp-team-config
 rm -rf ~/.warp-profiles
 
 # Re-run setup
-git clone https://github.com/YOUR-USERNAME/warp-team-config.git ~/warp-team-config
+git clone https://github.com/djfusco/warp-team-config.git ~/warp-team-config
 cd ~/warp-team-config
 ./scripts/warp-profile-manager.sh create-defaults
 ```
