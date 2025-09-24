@@ -18,13 +18,13 @@ if [[ -x "$WARP_PROFILE_MANAGER" ]] && [[ -x "$TEAM_SYNC" ]]; then
     alias warp-current="$WARP_PROFILE_MANAGER current"
     alias warp-list="$WARP_PROFILE_MANAGER list"
     
-    # Quick status function
-    warp-status() {
-        echo "🔧 Warp Profile Status:"
-        "$WARP_PROFILE_MANAGER" current
-        echo ""
-        "$WARP_PROFILE_MANAGER" list
-    }
+    # Quick status function (replaced by team-sync status)
+    # warp-status() {
+    #     echo "🔧 Warp Profile Status:"
+    #     "$WARP_PROFILE_MANAGER" current
+    #     echo ""
+    #     "$WARP_PROFILE_MANAGER" list
+    # }
     
     # Quick switch function with confirmation
     warp-switch() {
