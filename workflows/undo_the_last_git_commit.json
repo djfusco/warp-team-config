@@ -1,0 +1,12 @@
+{
+  "name": "Undo the last Git commit",
+  "command": "git reset HEAD~",
+  "tags": [],
+  "description": null,
+  "arguments": [],
+  "source_url": null,
+  "author": null,
+  "author_url": null,
+  "shells": [],
+  "environment_variables": null
+}

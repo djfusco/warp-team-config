@@ -1,0 +1,19 @@
+{
+  "name": "Squash the last N commits together",
+  "command": "git reset --soft HEAD~{{num_commits}} && git commit",
+  "tags": [],
+  "description": "Squashes the last n commits together. Requires rewriting a commit message for the new squashed changes.",
+  "arguments": [
+    {
+      "name": "num_commits",
+      "arg_type": "Text",
+      "description": "The number of commits that should be squashed together",
+      "default_value": null
+    }
+  ],
+  "source_url": null,
+  "author": null,
+  "author_url": null,
+  "shells": [],
+  "environment_variables": null
+}

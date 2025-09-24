@@ -1,0 +1,35 @@
+# Warp Team Config .gitignore
+
+# Backup files
+*.backup.*
+*.bak
+*.tmp
+
+# Personal/sensitive workflows (add specific ones here)
+workflows/*personal*
+workflows/*private*
+workflows/*secret*
+
+# Local configuration overrides
+local-config/
+.env
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Personal profile backups
+profiles/
+.warp-profiles/

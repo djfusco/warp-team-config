@@ -1,0 +1,19 @@
+{
+  "name": "Example workflow",
+  "command": "echo hello, {{your_name}}",
+  "tags": [],
+  "description": "A workflow is a templated command that you can save for yourself and share with your team. Create workflows in Warp Drive or save them from commands you've already run.",
+  "arguments": [
+    {
+      "name": "your_name",
+      "arg_type": "Text",
+      "description": "Who you are saying hello to",
+      "default_value": "world"
+    }
+  ],
+  "source_url": null,
+  "author": null,
+  "author_url": null,
+  "shells": [],
+  "environment_variables": null
+}

@@ -1,0 +1,3 @@
+{"type":"agent_mode","name":"Clone and install Warp's themes repository","query":"Detect my current operating system. Based on that, navigate to the appropriate Warp themes directory (e.g. ~/.warp/ on macOS). 
+
+Then, clone the official Warp themes repository using SSH (git@github.com:warpdotdev/themes.git) into that directory, following the structure and instructions provided in the repo’s README. If SSH does not work, try HTTPS (https://github.com/warpdotdev/themes.git) or via the GitHub CLI (gh repo clone warpdotdev/themes).","description":"Clone the Warp community themes repository into the correct themes folder for your OS to add custom themes to Warp.","arguments":[]}
