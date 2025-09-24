@@ -33,20 +33,22 @@ source ~/.zshrc
 
 ### 3. Test the Setup
 ```bash
-# Check current profile
-warp-current
+# Check current profile  
+warp-status
 
-# List available profiles
-warp-list
-
-# Switch to team configuration
-warp-team
-
-# Switch back to personal
-warp-private
+# Try the simple commands
+sync        # Get latest team workflows
+team        # Switch to team mode
+private     # Switch to personal mode
 ```
 
 **🎉 That's it! You're ready to use the system.**
+
+**🎯 Daily Commands:**
+- `sync` - Morning routine (get team updates)
+- `share` - Share your workflows with team
+- `team` / `private` - Switch between modes
+- `warp-status` - Check what's happening
 
 ## 📋 What Just Happened?
 

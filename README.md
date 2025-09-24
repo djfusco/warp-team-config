@@ -28,22 +28,23 @@ source ~/.zshrc
 
 ### 2. Daily Usage
 
+**🎯 Simple One-Word Commands:**
 ```bash
-# Switch to team configuration
-warp-team
+# Morning: Get latest team workflows
+sync
 
-# Switch to private configuration  
-warp-private
+# Evening: Share your workflows
+share
 
-# Check current profile
-warp-current
+# Switch between modes
+team        # Team collaborative work
+private     # Personal work
 
-# List all profiles
-warp-list
-
-# See detailed status
+# Check status
 warp-status
 ```
+
+**📖 For complete command guide, see [SIMPLE_COMMANDS.md](SIMPLE_COMMANDS.md)**
 
 ## 🔧 Profile Management
 

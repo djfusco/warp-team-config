@@ -24,31 +24,27 @@ echo "✅ Setup complete! Try: warp-team"
 ## Daily Commands
 
 ```bash
-warp-team         # Switch to team configuration  
-warp-private      # Switch back to personal setup
-warp-current      # Check which profile is active
-warp-status       # See detailed status
+# Simple one-word commands:
+sync              # Morning: get latest team workflows
+share             # Evening: share your workflows
+team              # Switch to team mode
+private           # Switch to personal mode
+warp-status       # Check current status
 ```
 
 ## Share New Workflows
 
 ```bash
 # After creating a workflow in Warp:
-cd ~/warp-team-config
-./scripts/export-workflows.sh
-git add workflows/
-git commit -m "Add workflow: [description]"
-git push
+share
+# That's it! The command handles everything automatically
 ```
 
 ## Get Team Updates
 
 ```bash
-cd ~/warp-team-config
-git pull
-warp-team
-./scripts/import-workflows.sh
-# Restart Warp
+sync
+# That's it! Restart Warp to see new workflows
 ```
 
 ---
